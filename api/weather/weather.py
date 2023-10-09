@@ -5,5 +5,5 @@ router = APIRouter()
 
 
 @router.get("/weather/")
-def get_users(skip: int = 0, limit: int = 10):
+def get_weather(skip: int = 0, limit: int = 10):
     return "100°"
